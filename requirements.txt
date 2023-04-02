@@ -44,6 +44,8 @@ logging-demo==0.20.3
 map-msgs==2.1.0
 message-filters==4.3.2
 nav-msgs==4.2.3
+numpy==1.24.2
+opencv-python==4.7.0.72
 osrf-pycommon==2.0.2
 pcl-msgs==1.0.0
 pendulum-msgs==0.20.3
@@ -60,6 +62,7 @@ rclpy==3.3.7
 rcutils==5.1.2
 resource-retriever==3.1.1
 rmw-dds-common==1.6.0
+ros-gz-interfaces==0.244.9
 ros2action==0.18.5
 ros2bag==0.15.4
 ros2cli==0.18.5
@@ -125,8 +128,10 @@ tf2-msgs==0.25.2
 tf2-py==0.25.2
 tf2-ros-py==0.25.2
 tf2-tools==0.25.2
+theora-image-transport==2.5.0
 topic-monitor==0.20.3
 trajectory-msgs==4.2.3
 turtlesim==1.4.2
 unique-identifier-msgs==2.2.1
 visualization-msgs==4.2.3
+xacro==2.0.8
