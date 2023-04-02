@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="joy" exec="joy_node" name="xbox_controller" namespace="input_devices/"/>
+</launch>
