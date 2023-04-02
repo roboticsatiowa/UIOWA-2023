@@ -30,3 +30,7 @@ Follow the installation instructions found [here](https://docs.ros.org/en/humble
 1. Launch the rover with ```ros2 launch rover_launch.xml```
 
 2. Launch the laptop with ```ros2 launch home_launch.xml```
+
+## Documentation
+
+- [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials.html)
