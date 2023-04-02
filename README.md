@@ -23,6 +23,8 @@ Follow the installation instructions found [here](https://docs.ros.org/en/humble
 3. Install dependencies (must have ros 2 already installed): 
 ```pip install -r requirements.txt```
 
+    - Note: requirements.txt can be updated with new dependencies by running ```pip freeze > requirements.txt```
+
 ### Running the code
 
 1. Launch the rover with ```ros2 launch rover_launch.xml```
