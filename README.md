@@ -4,11 +4,11 @@
 
 ### Installing ROS
 
-It is highly recommended to use a [Ubuntu linux](https://ubuntu.com/desktop) operating system.
+- It is highly recommended to use a [Ubuntu linux](https://ubuntu.com/desktop) operating system.
 
-If needed a [virtual machine](https://www.virtualbox.org/wiki/Downloads) will work
+- If needed a [virtual machine](https://www.virtualbox.org/wiki/Downloads) will work
 
-Follow the installation instructions found [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+- Follow the installation instructions found [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
 ### Setting up python environment
 
@@ -27,10 +27,18 @@ Follow the installation instructions found [here](https://docs.ros.org/en/humble
 
 ### Running the code
 
-1. Launch the rover with ```ros2 launch rover_launch.xml```
+1. Run ```source build_packages.bash``` while in the workspace (only needs to be done once)
 
-2. Launch the laptop with ```ros2 launch home_launch.xml```
+2. Launch the rover with ```ros2 launch rover_launch.xml```
+
+3. Launch the laptop with ```ros2 launch home_launch.xml```
 
 ## Documentation
 
 - [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials.html)
+  
+### Building packages
+
+- All ROS2 packages are contained in ```src/``` directory
+- Packages can be built by running ```colcon build --symlink-install``` from workspace
+- Add built packages to ROS2 environment by running ```source install/setup.bash```
