@@ -37,8 +37,23 @@
 
 - [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials.html)
   
-### Building packages
+### Building Packages
 
 - All ROS2 packages are contained in ```src/``` directory
 - Packages can be built by running ```colcon build --symlink-install``` from workspace
 - Add built packages to ROS2 environment by running ```source install/setup.bash```
+  
+### Creating Packages
+
+1. Packages can be created by navigating to ```src/``` and running ```ros2 pkg create --build-type ament_python <package_name>```
+   
+2.  Add node files to ```src/package_name/package_name```
+   
+3.  Add node to source script ```src/package_name/setup.py``` by modifying like so:
+```
+entry_points={
+    'console_scripts': [
+        'node_name = package_name.node_name:main',
+    ],
+}
+```
