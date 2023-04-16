@@ -50,7 +50,7 @@
 2.  Add node files to ```src/package_name/package_name```
    
 3.  Add node to source script ```src/package_name/setup.py``` by modifying like so:
-```
+```py
 entry_points={
     'console_scripts': [
         'node_name = package_name.node_name:main',

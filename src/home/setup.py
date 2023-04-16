@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'rover'
+package_name = 'home'
 
 setup(
     name=package_name,
@@ -13,15 +13,13 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='charlie',
-    maintainer_email='charlie@todo.todo',
+    maintainer='robotics',
+    maintainer_email='holterethan@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-		    'cameras = rover.cameras:main',
-		    'gui = rover.gui:main',
         ],
     },
 )
