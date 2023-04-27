@@ -55,5 +55,5 @@ entry_points={
     'console_scripts': [
         'node_name = package_name.node_name:main',
     ],
-}
+} 
 ```
