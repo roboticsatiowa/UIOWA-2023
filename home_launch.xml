@@ -1,3 +1,4 @@
 <launch>
     <node pkg="joy" exec="joy_node" name="xbox_controller"/>
+    <node pkg="rover" exec="gui" name="GUI"/>
 </launch>
