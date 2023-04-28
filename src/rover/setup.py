@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
 		    'cameras = rover.cameras:main',
-		    'gui = rover.gui:main',
+		    'controller = rover.controller:main',
         ],
     },
 )
